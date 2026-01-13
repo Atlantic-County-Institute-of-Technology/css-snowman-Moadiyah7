@@ -7,6 +7,7 @@
 }
 
 .circle {
+    margin: auto;
     position: absolute;
     top: 55%;
     right: 50%;
@@ -66,6 +67,32 @@
     border-color: transparent transparent orange;
 }
 
-.hat{
-    
+.square{
+    position: relative;
+    bottom: 139px;
+    right: 32px;
+    height: 70px;
+    width: 66px;
+    background-color: black;
+
+}
+
+.rectangle{
+    position: relative;
+    top: 110px;
+    right: 199%;
+    height: 200px;
+    width: 10px;
+    background-color: chocolate;
+    transform: rotate(120deg);
+}
+
+.rectangle2{
+    position: relative;
+    bottom: 110px;
+    right: 199%;
+    height: 200px;
+    width: 10px;
+    background-color: chocolate;
+    transform: rotate(120deg);
 }
